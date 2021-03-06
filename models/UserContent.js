@@ -18,6 +18,10 @@ UserContent.init(
         key: "id",
       },
     },
+    template_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+    },
     avatar_image_URI: {
       type: DataTypes.STRING,
       allowNull: true,
